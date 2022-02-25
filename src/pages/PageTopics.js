@@ -5,8 +5,7 @@ export function PageTopics() {
 	const topics = getTopics();
 
 	return (
-		<div>
-			<h1>Topics</h1>
+		<div className="areaTopics">
 			<ul>
 				{topics.map(({ name, id }) => (
 					<li key={id}>
@@ -14,7 +13,6 @@ export function PageTopics() {
 					</li>
 				))}
 			</ul>
-			<hr />
 			<Outlet />
 		</div>
 	);

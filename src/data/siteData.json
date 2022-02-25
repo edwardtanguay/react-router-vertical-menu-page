@@ -8,7 +8,13 @@
         "name": "How to set up a GraphQL backend with MongoDB and Express",
         "id": "507",
         "description":
-          "the project shows you how to setup a GraphQL server locally with Apollo and Express which serves data from a MongoDB database"
+          "The project shows you how to setup a GraphQL server locally with Apollo and Express which serves data from a MongoDB database."
+      },
+      {
+        "name": "Build a two-page website with Gatsby and host at Netlify",
+        "id": "478",
+        "description":
+          "These instructions will show you how to get a Gatsby website up and running witih GraphQL."
       }
     ]
   }

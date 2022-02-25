@@ -15,6 +15,7 @@ export default function App() {
 	return (
 		<Router>
 			<div className="App">
+				<h1>Edward's Howtos</h1>
 				<ul>
 					<li>
 						<NavLink to="/">Home</NavLink>
@@ -23,7 +24,6 @@ export default function App() {
 						<NavLink to="/topics">Topics</NavLink>
 					</li>
 				</ul>
-				<hr />
 				<Routes>
 					<Route path="/" element={<PageHome />} />
 					<Route path="/topics" element={<PageTopics />}>

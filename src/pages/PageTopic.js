@@ -6,9 +6,8 @@ export function PageTopic() {
 	const topic = getTopic(topicId);
 
 	return (
-		<div>
-			<h2>{topic.name}</h2>
-			<p>{topic.description}</p>
+		<div className="areaTopic">
+			<h2>{topic.name}: {topic.description}</h2>
 			<ul>
 				{topic.resources.map((sub) => (
 					<li key={sub.id}>
@@ -16,7 +15,6 @@ export function PageTopic() {
 					</li>
 				))}
 			</ul>
-			<hr />
 			<Outlet />
 		</div>
 	);

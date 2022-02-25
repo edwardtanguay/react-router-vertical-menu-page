@@ -6,10 +6,12 @@ export function PageResource() {
 	const { name, description, id } = getResource({ topicId, resourceId });
 
 	return (
-		<div>
+		<div className="areaResource">
 			<h3>{name}</h3>
 			<p>{description}</p>
-			<a href={`https://edwardtanguay.netlify.app/howtos?id=${id}`}>Read Post</a>
+			<div className="link">
+				&gt;&gt;&gt; <a target="_blank" href={`https://edwardtanguay.netlify.app/howtos?id=${id}`} rel="noreferrer">Go to Howto</a>
+			</div>
 		</div>
 	);
 }
