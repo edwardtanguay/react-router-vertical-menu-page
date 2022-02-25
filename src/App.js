@@ -7,35 +7,11 @@ import {
 	Routes,
 	Outlet
 } from 'react-router-dom';
-import { getTopic } from './data/siteData';
 import './App.scss';
 import { PageHome } from './pages/PageHome';
 import { PageTopics } from './pages/PageTopics';
 import { PageResource } from './pages/PageResource';
-
-function Topic() {
-	const { topicId } = useParams();
-	const topic = getTopic(topicId);
-
-	return (
-		<div>
-			<h2>{topic.name}</h2>
-			<p>{topic.description}</p>
-
-			<ul>
-				{topic.resources.map((sub) => (
-					<li key={sub.id}>
-						<Link to={sub.id}>{sub.name}</Link>
-					</li>
-				))}
-			</ul>
-
-			<hr />
-
-			<Outlet />
-		</div>
-	);
-}
+import { PageTopic } from './pages/PageTopic';
 
 export default function App() {
 	return (
@@ -55,7 +31,7 @@ export default function App() {
 				<Routes>
 					<Route path="/" element={<PageHome />} />
 					<Route path="/topics" element={<PageTopics />}>
-						<Route path=":topicId" element={<Topic />}>
+						<Route path=":topicId" element={<PageTopic />}>
 							<Route path=":resourceId" element={<PageResource />} />
 						</Route>
 					</Route>

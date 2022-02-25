@@ -5,7 +5,8 @@
 	- x pageTopics
 	- x put api in data
 	- ,, rest of pages
-		- .. resource page
+		- x resource page in
+		- .. topic page in
 - build into first example 
 - change data to howtos and techitems
 - post as howto
