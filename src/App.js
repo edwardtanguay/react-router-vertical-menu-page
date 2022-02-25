@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {
 	BrowserRouter as Router,
-	Link,
 	Route,
-	Routes
+	Routes,
+	NavLink
 } from 'react-router-dom';
 import './App.scss';
 import { PageHome } from './pages/PageHome';
@@ -17,10 +17,10 @@ export default function App() {
 			<div className="App">
 				<ul>
 					<li>
-						<Link to="/">Home</Link>
+						<NavLink to="/">Home</NavLink>
 					</li>
 					<li>
-						<Link to="/topics">Topics</Link>
+						<NavLink to="/topics">Topics</NavLink>
 					</li>
 				</ul>
 

@@ -1,5 +1,5 @@
 - x get it running
-- ,, recreate with individual pages
+- x recreate with individual pages
 	- x home
 	- x add git
 	- x pageTopics
@@ -7,6 +7,8 @@
 	- x rest of pages
 		- x resource page in
 		- x topic page in
+- .. nav to navlink
+
 - build into first example 
 - change data to howtos and techitems
 - post as howto

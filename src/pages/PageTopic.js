@@ -1,4 +1,4 @@
-import { useParams, Link, Outlet } from 'react-router-dom';
+import { useParams, NavLink, Outlet } from 'react-router-dom';
 import { getTopic } from '../data/siteData';
 
 export function PageTopic() {
@@ -13,7 +13,7 @@ export function PageTopic() {
 			<ul>
 				{topic.resources.map((sub) => (
 					<li key={sub.id}>
-						<Link to={sub.id}>{sub.name}</Link>
+						<NavLink to={sub.id}>{sub.name}</NavLink>
 					</li>
 				))}
 			</ul>

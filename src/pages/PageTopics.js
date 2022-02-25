@@ -1,4 +1,4 @@
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 import { getTopics } from "../data/siteData";
 
 export function PageTopics() {
@@ -10,7 +10,7 @@ export function PageTopics() {
 			<ul>
 				{topics.map(({ name, id }) => (
 					<li key={id}>
-						<Link to={id}>{name}</Link>
+						<NavLink to={id}>{name}</NavLink>
 					</li>
 				))}
 			</ul>

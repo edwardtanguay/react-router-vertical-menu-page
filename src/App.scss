@@ -1,7 +1,10 @@
+$linkColor: rgb(250, 248, 132);
+$linkHighlightColor: orange;
+
 body {
-	background: rgb(20, 20, 20);
+	background:#222;
 	color: #ccc;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .App {
 	font-size: 1.6rem;
@@ -26,8 +29,19 @@ body {
 	ul {
 		list-style-type: disc;
 		margin: 0 0 0 30px;
+		li {
+			a {
+				color: $linkColor;
+				text-decoration: none;
+			}
+			a.active {
+				color: $linkHighlightColor;
+			font-weight: bold;
+			}
+		}
 	}
 	a {
-		color: rgb(250, 250, 181);
+		color: $linkColor;
+		text-decoration: none;
 	}
 }
