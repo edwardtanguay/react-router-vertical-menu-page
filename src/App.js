@@ -10,6 +10,8 @@ import {
 import { getTopic, getResource, getTopics } from "./api";
 import './App.scss';
 import { PageHome } from './pages/PageHome';
+import { PageTopics } from './pages/PageTopics';
+
 
 function Resource() {
 	const { topicId, resourceId } = useParams();
@@ -49,27 +51,6 @@ function Topic() {
 	);
 }
 
-function Topics() {
-	const topics = getTopics();
-
-	return (
-		<div>
-			<h1>Topics</h1>
-			<ul>
-				{topics.map(({ name, id }) => (
-					<li key={id}>
-						<Link to={id}>{name}</Link>
-					</li>
-				))}
-			</ul>
-
-			<hr />
-
-			<Outlet />
-		</div>
-	);
-}
-
 export default function App() {
 	return (
 		<Router>
@@ -87,7 +68,7 @@ export default function App() {
 
 				<Routes>
 					<Route path="/" element={<PageHome />} />
-					<Route path="/topics" element={<Topics />}>
+					<Route path="/topics" element={<PageTopics />}>
 						<Route path=":topicId" element={<Topic />}>
 							<Route path=":resourceId" element={<Resource />} />
 						</Route>

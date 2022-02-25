@@ -1,8 +1,8 @@
 - x get it running
 - ,, recreate with individual pages
 	- x home
-	- .. add git
-	
+	- x add git
+	- .. rest of pages
 - build into first example 
 - change data to howtos and techitems
 - post as howto
