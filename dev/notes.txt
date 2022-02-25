@@ -8,7 +8,7 @@
 		- x resource page in
 		- x topic page in
 - x nav to navlink
-- .. arrow symbols
+- x symbols
 - .. understand outlet
 
 - build into first example 
