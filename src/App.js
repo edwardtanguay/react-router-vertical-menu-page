@@ -7,25 +7,11 @@ import {
 	Routes,
 	Outlet
 } from 'react-router-dom';
-import { getTopic, getResource} from './data/siteData';
+import { getTopic } from './data/siteData';
 import './App.scss';
 import { PageHome } from './pages/PageHome';
 import { PageTopics } from './pages/PageTopics';
-
-
-function Resource() {
-	const { topicId, resourceId } = useParams();
-
-	const { name, description, id } = getResource({ topicId, resourceId });
-
-	return (
-		<div>
-			<h3>{name}</h3>
-			<p>{description}</p>
-			<a href={`https://ui.dev/${id}`}>Read Post</a>
-		</div>
-	);
-}
+import { PageResource } from './pages/PageResource';
 
 function Topic() {
 	const { topicId } = useParams();
@@ -70,7 +56,7 @@ export default function App() {
 					<Route path="/" element={<PageHome />} />
 					<Route path="/topics" element={<PageTopics />}>
 						<Route path=":topicId" element={<Topic />}>
-							<Route path=":resourceId" element={<Resource />} />
+							<Route path=":resourceId" element={<PageResource />} />
 						</Route>
 					</Route>
 				</Routes>
