@@ -46,11 +46,11 @@ body {
 }
 
 .App ul li a.active:before {
-  content: '<';
+  content: '[';
 }
 
 .App ul li a.active:after {
-  content: '>';
+  content: ']';
 }
 
 .App a {

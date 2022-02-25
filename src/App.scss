@@ -38,10 +38,10 @@ body {
 				color: $linkHighlightColor;
 				font-weight: bold;
 				&:before {
-					content: '<';
+					content: '[';
 				}
 				&:after {
-					content: '>';
+					content: ']';
 				}
 				background: #222;
 			}
