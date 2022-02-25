@@ -57,14 +57,18 @@ body {
 	.areaTopic {
 		background: #555;
 		margin: 20px 0 0 0;
-		padding: 20px;
+		padding: 20px 20px 5px 20px;
 		border-radius: 5px;
 		h2 {
 			font-size: 2rem;
-			color: #111;
+			color: #ddd;
 			font-weight: bold;
-			margin: 10px 0;
+			margin: 10px 0 0 0;
 			padding: 5px;
+		}
+		p {
+			margin: 0 0 10px 5px;
+			font-style: italic;
 		}
 		ul {
 			margin: 0 0 30px 20px;
@@ -89,6 +93,10 @@ body {
 			font-size: 1.3rem;
 			a {
 				color: green;
+				background: #ddd;
+				&:after, &:before {
+					content: "\00a0";
+				}
 				font-style: italic;
 			}
 		}

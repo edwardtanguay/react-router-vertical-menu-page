@@ -7,7 +7,8 @@ export function PageTopic() {
 
 	return (
 		<div className="areaTopic">
-			<h2>{topic.name}: {topic.description}</h2>
+			<h2>{topic.name} Howtos</h2>
+			<p>{topic.name}: {topic.description}</p>
 			<ul>
 				{topic.resources.map((sub) => (
 					<li key={sub.id}>

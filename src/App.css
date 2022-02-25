@@ -66,16 +66,21 @@ body {
 .App .areaTopic {
   background: #555;
   margin: 20px 0 0 0;
-  padding: 20px;
+  padding: 20px 20px 5px 20px;
   border-radius: 5px;
 }
 
 .App .areaTopic h2 {
   font-size: 2rem;
-  color: #111;
+  color: #ddd;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   padding: 5px;
+}
+
+.App .areaTopic p {
+  margin: 0 0 10px 5px;
+  font-style: italic;
 }
 
 .App .areaTopic ul {
@@ -107,5 +112,10 @@ body {
 
 .App .areaResource .link a {
   color: green;
+  background: #ddd;
   font-style: italic;
+}
+
+.App .areaResource .link a:after, .App .areaResource .link a:before {
+  content: "\00a0";
 }

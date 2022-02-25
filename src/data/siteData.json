@@ -1,5 +1,24 @@
 [
   {
+    "name": "React",
+    "id": "react",
+    "description": "currently the most popular front-end JavaScript framework along with Vue and Angular",
+    "resources": [
+      {
+        "name": "Examples of consuming APIs with fetch and axios",
+        "id": "506",
+        "description":
+          "This code shows how to load data from APIs using both the standard fetch() as well as the library axios()."
+      },
+      {
+        "name": "Create a reusable todolist component in React that uses localStorage",
+        "id": "504",
+        "description":
+          "This sample app shows a number of concepts: (1) how to create components that are 100% separate from each other, you can create as many todolist components as you want, (2) how to use useRef to programmatically set focus in a field, (3) how to use localStorage to save todo-list data in the user's browser, and (4) how to use radio buttons in React."
+      }
+    ]
+  },
+  {
     "name": "GraphQL",
     "id": "graphql",
     "description": "a newer and more robust alternative to REST",
