@@ -9,7 +9,6 @@ export function PageTopic() {
 		<div>
 			<h2>{topic.name}</h2>
 			<p>{topic.description}</p>
-
 			<ul>
 				{topic.resources.map((sub) => (
 					<li key={sub.id}>
@@ -17,9 +16,7 @@ export function PageTopic() {
 					</li>
 				))}
 			</ul>
-
 			<hr />
-
 			<Outlet />
 		</div>
 	);

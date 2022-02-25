@@ -23,9 +23,7 @@ export default function App() {
 						<NavLink to="/topics">Topics</NavLink>
 					</li>
 				</ul>
-
 				<hr />
-
 				<Routes>
 					<Route path="/" element={<PageHome />} />
 					<Route path="/topics" element={<PageTopics />}>

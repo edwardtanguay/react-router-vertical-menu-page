@@ -3,12 +3,12 @@ import { getResource } from '../data/siteData';
 
 export function PageResource() {
 	const { topicId, resourceId } = useParams();
-
 	const { name, description, id } = getResource({ topicId, resourceId });
 
 	return (
 		<div>
 			<h3>{name}</h3>
+			<div>{topicId}/{resourceId}</div>
 			<p>{description}</p>
 			<a href={`https://ui.dev/${id}`}>Read Post</a>
 		</div>
