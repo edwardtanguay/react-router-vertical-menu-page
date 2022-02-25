@@ -1,5 +1,5 @@
 import { Outlet, NavLink } from 'react-router-dom';
-import { getTopics } from "../data/siteData";
+import { getTopics } from '../tools/dataManager';
 
 export function PageTopics() {
 	const topics = getTopics();

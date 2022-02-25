@@ -1,0 +1,65 @@
+[
+  {
+    "name": "React",
+    "id": "reactjs",
+    "description": "A JavaScript library for building user interfaces",
+    "resources": [
+      {
+        "name": "Why React Hooks?",
+        "id": "why-react-hooks",
+        "description":
+          "In this post you'll learn why the React team dedicated so many resources to creating and releasing React Hooks. Along the way, you'll also get a soft introduction to the main aspects of the React Hooks API."
+      },
+      {
+        "name": "Introduction to props in React",
+        "id": "react-props",
+        "description":
+          "In this post you'll learn how to properly use props to pass data to components in React."
+      },
+      {
+        "name": "Understanding React's useRef Hook",
+        "id": "useref",
+        "description":
+          "In this post you'll learn how and why you can use React's useRef Hook to persist values across renders without causing a re-render."
+      }
+    ]
+  },
+  {
+    "name": "TypeScript",
+    "id": "typescript",
+    "description": "Typed JavaScript at Any Scale.",
+    "resources": [
+      {
+        "name": "Why TypeScript?",
+        "id": "why-typescript",
+        "description":
+          "TypeScript might be the hottest, most popular language on the web, but why might you want to use it?"
+      },
+      {
+        "name": "Installing and Configuring TypeScript",
+        "id": "typescript-advanced-configuration",
+        "description":
+          "TypeScript comes with a lot of configuration options. This post explains how some of the more common options work."
+      }
+    ]
+  },
+  {
+    "name": "React Router",
+    "id": "react-router",
+    "description": "Declarative, component based routing for React",
+    "resources": [
+      {
+        "name": "Code Splitting with React, React.lazy, and React Router",
+        "id": "react-router-code-splitting",
+        "description":
+          "In this post you'll learn how to increase the performance of your React application by adding code splitting with React.lazy and React Router."
+      },
+      {
+        "name": "The Guide to Nested routes with React Router",
+        "id": "react-router-nested-routes",
+        "description":
+          "In this up-to-date guide, you'll learn two patterns for creating nested routes with React Router."
+      }
+    ]
+  }
+]

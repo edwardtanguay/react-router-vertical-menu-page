@@ -1,5 +1,5 @@
 import { useParams, NavLink, Outlet } from 'react-router-dom';
-import { getTopic } from '../data/siteData';
+import { getTopic } from '../tools/dataManager';
 
 export function PageTopic() {
 	const { topicId } = useParams();

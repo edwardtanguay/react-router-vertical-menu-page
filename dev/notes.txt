@@ -10,6 +10,7 @@
 - x nav to navlink
 - x symbols
 - x understand outlet
-- .. change data to howtos and techitems
+- .. change to json
+- .. change data to howtos
 
 - post as howto
