@@ -15,6 +15,31 @@
         "id": "504",
         "description":
           "This sample app shows a number of concepts: (1) how to create components that are 100% separate from each other, you can create as many todolist components as you want, (2) how to use useRef to programmatically set focus in a field, (3) how to use localStorage to save todo-list data in the user's browser, and (4) how to use radio buttons in React."
+      },
+      {
+        "name": "How to pass and change state variables via props",
+        "id": "498",
+        "description":
+          "This project shows how to a state variable (here: an array of passenger object) down multiple levels of components, via props, allowing the components to chance the original state variable in the highest component."
+      }
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "id": "javascript",
+    "description": "the main scripting language of the Web",
+    "resources": [
+      {
+        "name": "How to attach JavaScript class methods as event handlers",
+        "id": "490",
+        "description":
+          "This example demonstrates how to create class methods that can be used as event handlers, e.g. for vanilla JavaScript sites."
+      },
+      {
+        "name": "Create a cashier calculator to return change",
+        "id": "481",
+        "description":
+          "This is a solution to a JavaScript exercise create a function that simulates what a cashier has to do when a customer has a certain amount to pay, pays more than the amount, and the cashier has to calculate the change."
       }
     ]
   },

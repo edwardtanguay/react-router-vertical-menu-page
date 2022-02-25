@@ -13,7 +13,6 @@
 - x change to json
 - x change data to howtos
 - x new layout
-- .. put in rest of new data
-- delete siteData copy
-
-- post as howto
+- x put in rest of new data
+- x delete siteData copy
+- x post as howto
