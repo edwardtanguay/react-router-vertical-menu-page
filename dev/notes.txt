@@ -9,8 +9,7 @@
 		- x topic page in
 - x nav to navlink
 - x symbols
-- .. understand outlet
+- x understand outlet
+- .. change data to howtos and techitems
 
-- build into first example 
-- change data to howtos and techitems
 - post as howto
