@@ -3,9 +3,7 @@ import {
 	BrowserRouter as Router,
 	Link,
 	Route,
-	useParams,
-	Routes,
-	Outlet
+	Routes
 } from 'react-router-dom';
 import './App.scss';
 import { PageHome } from './pages/PageHome';

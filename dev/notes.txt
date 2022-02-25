@@ -4,9 +4,9 @@
 	- x add git
 	- x pageTopics
 	- x put api in data
-	- ,, rest of pages
+	- x rest of pages
 		- x resource page in
-		- .. topic page in
+		- x topic page in
 - build into first example 
 - change data to howtos and techitems
 - post as howto
