@@ -12,8 +12,8 @@
 - x understand outlet
 - x change to json
 - x change data to howtos
-- .. new layout
-- put in rest of new data
+- x new layout
+- .. put in rest of new data
 - delete siteData copy
 
 - post as howto
