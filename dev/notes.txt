@@ -7,7 +7,9 @@
 	- x rest of pages
 		- x resource page in
 		- x topic page in
-- .. nav to navlink
+- x nav to navlink
+- .. arrow symbols
+- .. understand outlet
 
 - build into first example 
 - change data to howtos and techitems

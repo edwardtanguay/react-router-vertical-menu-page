@@ -44,6 +44,14 @@ body {
   font-weight: bold;
 }
 
+.App ul li a.active:before {
+  content: '<';
+}
+
+.App ul li a.active:after {
+  content: '>';
+}
+
 .App a {
   color: #faf884;
   text-decoration: none;
