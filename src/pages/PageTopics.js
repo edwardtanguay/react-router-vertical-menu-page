@@ -1,5 +1,5 @@
 import { Outlet, Link } from 'react-router-dom';
-import { getTopics } from "../api";
+import { getTopics } from "../data/siteData";
 
 export function PageTopics() {
 	const topics = getTopics();

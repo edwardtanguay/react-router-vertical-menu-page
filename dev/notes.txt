@@ -2,6 +2,8 @@
 - ,, recreate with individual pages
 	- x home
 	- x add git
+	- x pageTopics
+	- .. put api in data
 	- .. rest of pages
 - build into first example 
 - change data to howtos and techitems

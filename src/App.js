@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 import {
 	BrowserRouter as Router,
 	Link,
@@ -6,8 +6,8 @@ import {
 	useParams,
 	Routes,
 	Outlet
-} from "react-router-dom";
-import { getTopic, getResource, getTopics } from "./api";
+} from 'react-router-dom';
+import { getTopic, getResource} from './data/siteData';
 import './App.scss';
 import { PageHome } from './pages/PageHome';
 import { PageTopics } from './pages/PageTopics';
